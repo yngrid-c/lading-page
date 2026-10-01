@@ -13,6 +13,7 @@
   --gradiente: linear-gradient(135deg, #2f6bff 0%, #22d3ee 100%);
   --sombra: 0 14px 40px rgba(47, 107, 255, 0.14);
   --raio: 20px;
+  color-scheme: light;
 }
 
 *,

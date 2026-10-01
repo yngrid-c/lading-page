@@ -633,13 +633,16 @@
   font-size: 2.3rem;
   line-height: 1.2;
   font-weight: 800;
-  background: var(--gradiente);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--azul);
 }
 
-.indicador span {
+.indicador strong span {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.indicador > span {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--suave);
